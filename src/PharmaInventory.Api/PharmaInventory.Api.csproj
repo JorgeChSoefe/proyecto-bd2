@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ed5a8a15-da60-4e29-a1b5-b80b18a3d2ed</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.11.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.16.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PharmaInventory.Application\PharmaInventory.Application.csproj" />
+    <ProjectReference Include="..\PharmaInventory.Infrastructure\PharmaInventory.Infrastructure.csproj" />
+    <ProjectReference Include="..\PharmaInventory.Domain\PharmaInventory.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

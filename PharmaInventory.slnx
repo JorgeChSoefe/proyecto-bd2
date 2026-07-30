@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PharmaInventory.Api/PharmaInventory.Api.csproj" />
+    <Project Path="src/PharmaInventory.Application/PharmaInventory.Application.csproj" />
+    <Project Path="src/PharmaInventory.Domain/PharmaInventory.Domain.csproj" />
+    <Project Path="src/PharmaInventory.Infrastructure/PharmaInventory.Infrastructure.csproj" />
+    <Project Path="src/PharmaInventory.Tests/PharmaInventory.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/DbDeploy/DbDeploy.csproj" />
+  </Folder>
+</Solution>

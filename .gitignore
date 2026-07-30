@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+*.user
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+
+# Nunca secretos reales -- la password/JWT signing key viven en
+# dotnet user-secrets (fuera del repo), nunca en appsettings*.json
+appsettings.*.local.json
+
+# OS
+.DS_Store
